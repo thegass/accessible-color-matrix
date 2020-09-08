@@ -10,6 +10,12 @@ npm install
 npm start
 ```
 
+if you have docker you can also use the provided docker-compose setup.
+
+```
+docker-compose up
+```
+
 Then visit http://localhost:3000/.
 
 [18F/brand#94]: https://github.com/18F/brand/pull/94
