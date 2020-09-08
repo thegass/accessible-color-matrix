@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  node:
+    image: 'node:latest'
+    user: node
+    volumes: 
+        - "./:/src"
+    working_dir: /src
+    ports: 
+        - "3000:3000"
+    command: "/src/command.sh"

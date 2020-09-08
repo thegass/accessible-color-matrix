@@ -30,7 +30,7 @@ type PaletteMsg =
   | Remove Int
   | Add
 
-maxPaletteEntries = 6
+maxPaletteEntries = 12
 
 updatePalette : PaletteMsg -> Palette -> Palette
 updatePalette msg palette =
