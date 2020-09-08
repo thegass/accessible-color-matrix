@@ -2,6 +2,7 @@
   "name": "accessible-color-matrix",
   "version": "1.0.0",
   "description": "Experimental accessible color matrix tool",
+  "homepage": "https://thegass.github.io/accessible-color-matrix",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -10,17 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toolness/accessible-color-matrix.git"
+    "url": "git+https://github.com/thegass/accessible-color-matrix.git"
   },
   "author": "Atul Varma <varmaa@gmail.com>",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/toolness/accessible-color-matrix/issues"
+    "url": "https://github.com/thegass/accessible-color-matrix/issues"
   },
-  "homepage": "https://github.com/toolness/accessible-color-matrix#readme",
   "dependencies": {
     "elm-webpack-loader": "^4.1.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
